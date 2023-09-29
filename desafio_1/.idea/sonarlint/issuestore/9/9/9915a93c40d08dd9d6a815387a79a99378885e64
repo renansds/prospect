@@ -1,6 +1,0 @@
-
-l	java:S116"PRename this field "REGEX" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(²²©š8êë®Ã­1
->
-java:S1170"!Make this final field static too.(²²©š8êë®Ã­1
-Z
-java:S63534"=Use concise character class syntax '\\D' instead of '[^0-9]'.(©ü«ã8ìë®Ã­1
