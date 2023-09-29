@@ -200,10 +200,6 @@ Aqui estão as principais tecnologias usadas neste projeto e suas versões:
 ### Spring Boot Version
 - Spring Boot 3.1.3
 
-## 📝 Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
-
 ---
 
 Siga estas instruções para configurar, executar o projeto. Certifique-se de manter este README atualizado conforme o projeto evolui.
