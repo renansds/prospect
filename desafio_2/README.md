@@ -1,6 +1,6 @@
 # ✨ Desafio Cielo 2
 
-Este é o desafio 2 do Boot Camp Ada Tech + Cielo. Ele consiste em uma API REST que permite a criação, alteração, exclusão e consulta de pré-cadastros de clientes.
+Este é o desafio 2 do Boot Camp Ada Tech + Cielo. Criação de uma fila de atendimento para os prospect, com regras de entrada e retirada.
 
 ## 🤝 Novas Funcionalidades Adicionadas
 Nesta fase 2 do projeto, foram implementadas as seguintes adições e melhorias:
@@ -54,7 +54,7 @@ em sua própria máquina host.
 1. Construa a imagem Docker (certifique-se de ter o Docker instalado):
 
   ```shell
-    docker build -t prospect:1.0.0  -t prospect:latest .
+    docker build -t prospect:2.0.0  -t prospect:latest .
   ```
 2. Execute o contêiner:
 
@@ -193,11 +193,7 @@ Aqui estão as principais tecnologias usadas neste projeto e suas versões:
 
 ### Spring Boot Version
 - Spring Boot 3.1.3
-
-## 📝 Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
-
+  
 ---
 
 Siga estas instruções para configurar, executar o projeto. Certifique-se de manter este README atualizado conforme o projeto evolui.
