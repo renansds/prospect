@@ -11,11 +11,11 @@ Solução:
   Para mitigar essa vulnerabilidade, é recomendável remover ou substituir a biblioteca para um versão corrigida SnakeYAML, 
   Optei por atualizar a versão da biblioteca para a versão 2.2 
   ```xml
-   	<dependency>
-        <groupId>org.yaml</groupId>
-        <artifactId>snakeyaml</artifactId>
-        <version>2.2</version>
-		</dependency>
+	<dependency>
+		<groupId>org.yaml</groupId>
+		<artifactId>snakeyaml</artifactId>
+		<version>2.2</version>
+	</dependency>
   ```  
 ## Requisitos
 
@@ -38,7 +38,7 @@ Certifique-se de que você tenha as seguintes ferramentas instaladas antes de ex
 2. Navegue até o diretório do projeto:
 
    ```shell
-   cd prospect/desafio_3
+   cd prospect/desafio_4
    ```
 Você pode optar por rodar o projeto de 2 maneiras, dentro de um container docker ou 
 em sua própria máquina host.
@@ -60,7 +60,7 @@ em sua própria máquina host.
 1. Construa a imagem Docker (certifique-se de ter o Docker instalado):
 
   ```shell
-    docker build -t prospect:3.0.0  -t prospect:latest .
+    docker build -t prospect:4.0.0  -t prospect:latest .
   ```
 2. Execute o contêiner:
 
@@ -159,7 +159,7 @@ A API oferece suporte às seguintes operações:
   - Utilize o método GET para recuperar os detalhes de um cliente específico.
 
 - **Fila de Atendimento:**
-  - Inclusão da fila de atendimento em memória para clientes, que pode ser usada para gerenciar clientes físicos e jurídicos.
+  - Alteração da fila de atendimento para SQS.
   - Esta funcionalidade facilita o gerenciamento de clientes em fila de atendimento.
   - Utilize o método POST
 
