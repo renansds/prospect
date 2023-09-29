@@ -1,10 +1,10 @@
 # ✨ Desafio Cielo 3
 
-Este é o desafio 3 do Boot Camp Ada Tech + Cielo. Ele consiste em uma API REST que permite a criação, alteração, exclusão e consulta de pré-cadastros de clientes.
+Este é o desafio 3 do Boot Camp Ada Tech + Cielo.Resolução do problema de escalabilidade da fila de atendimento identificado no Desafio 2.
 
 ## 🤝 Novas Funcionalidades Adicionadas
 Nesta fase 3 do projeto, foram implementadas as seguintes adições e melhorias:
-Integração com o SQS da AWS: A integração com o Amazon Simple Queue Service (SQS) para a gestão de filas
+Integração com o SQS da AWS: A integração com o Amazon Simple Queue Service (SQS) para a gestão de filas.
 
 ## Requisitos
 
@@ -148,7 +148,7 @@ A API oferece suporte às seguintes operações:
   - Utilize o método GET para recuperar os detalhes de um cliente específico.
 
 - **Fila de Atendimento:**
-  - Inclusão da fila de atendimento em memória para clientes, que pode ser usada para gerenciar clientes físicos e jurídicos.
+  - Alteração da fila de atendimento para SQS.
   - Esta funcionalidade facilita o gerenciamento de clientes em fila de atendimento.
   - Utilize o método POST
 
@@ -188,10 +188,6 @@ Aqui estão as principais tecnologias usadas neste projeto e suas versões:
 
 ### Spring Boot Version
 - Spring Boot 3.1.3
-
-## 📝 Licença
-
-Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter detalhes.
 
 ---
 
